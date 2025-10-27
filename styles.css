@@ -1,0 +1,65 @@
+
+*{
+    box-sizing: border-box;
+    font-family: "Abhaya Libre";
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background: #F8FAF6;
+    margin: 0;
+    padding: 0;
+}
+
+#home{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+#start-button{
+    color: #11180C;
+    background-color: #80AD5C;
+    border: none;
+    border-radius: 8px;
+    font-size: 32px;
+    padding: 0.3rem 2rem 0.3rem 2rem;
+}
+#quizz-field{
+    background: #80AD5C;
+    color: #11180C;
+    padding: 3rem;
+    border-radius: 16px;
+}
+#quizz-options{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#quizz-option{
+    margin: 1rem;
+}
+.form-label{
+    margin-bottom: .5rem;
+    font-size: 24px;
+}
+.form-checkk{
+    width: 1em;
+    height: 1em;
+    margin: .5em;
+    vertical-align: middle;
+}
+#navigation{
+    padding:0 10rem 0 10rem ;
+    margin-top: 2rem;
+}
+.navigation{
+    display: flex;
+    gap: 100%;
+}
