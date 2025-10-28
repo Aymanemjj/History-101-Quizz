@@ -10,6 +10,7 @@
     </style>
     <script src="https://kit.fontawesome.com/e53a9172bb.js" crossorigin="anonymous"></script>
     <title>History-101 Quizz</title>
+    
 
 </head>
 <body>
@@ -17,34 +18,33 @@
         <h1 class="display-1">History-101 Quizz</h1>
         
         <div id="quizz-field">
-            <h2 class="display-5">When did WW2 end</h2>
+            <h2 id="question" class="display-5"></h2>
             <form id="quizz-options">
                 <div id="quizz-1">                  
                     <div class="quizz-option">
-                        <input class="form-checkk" type="radio" name="quizz-optin" id="quizz-option-0" value="0">
-                        <label class="form-label" for="quizz-option-0">1945</label>
+                        <input class="form-checkk" type="radio" name="quizz-optin" id="quizz-check-0" value="0">
+                        <label class="form-label" id="quizz-option-0"></label>
                     </div>
                     <div class="quizz-option">
-                        <input class="form-checkk" type="radio" name="quizz-optin" id="quizz-option-1" value="1">
-                        <label class="form-label" for="quizz-option-1">1937</label>
+                        <input class="form-checkk" type="radio" name="quizz-optin" id="quizz-check-1" value="1">
+                        <label class="form-label" id="quizz-option-1"></label>
                     </div>
                     <div class="quizz-option">
-                        <input class="form-checkk" type="radio" name="quizz-optin" id="quizz-option-2" value="2">
-                        <label class="form-label" for="quizz-option-2">1812</label>
+                        <input class="form-checkk" type="radio" name="quizz-optin" id="quizz-check-2" value="2">
+                        <label class="form-label" id="quizz-option-2"></label>
                     </div>
                     <div class="quizz-option">
-                        <input class="form-checkk" type="radio" name="quizz-optin" id="quizz-option-3" value="3">
-                        <label class="form-label" for="quizz-option-3">1964</label>
+                        <input class="form-checkk" type="radio" name="quizz-optin" id="quizz-check-3" value="3">
+                        <label class="form-label" id="quizz-option-3"></label>
                     </div>
                 </div>
             </form>
         </div>
-    </secion>
-    <section id="navigation">
-            <div class="navigation">
-            <i class="fa-solid fa-square-caret-left fa-2xl" style="color: #80ad5c;"></i>            
-            <i class="fa-solid fa-square-caret-right fa-2xl" style="color: #80ad5c;"></i>
+        <div class="navigation">
+            <i id="b1" class="fa-solid fa-square-caret-left fa-2xl" style="color: #80ad5c; visibility:hidden;"></i>            
+            <i id="b2" class="fa-solid fa-square-caret-right fa-2xl" style="color: #80ad5c; cursor: pointer;"></i>
+            <script src="js.js"></script>
         </div>
-    </section>
+    </secion>
 </body>
 </html>

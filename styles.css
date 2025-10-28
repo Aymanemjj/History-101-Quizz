@@ -40,13 +40,18 @@ body{
 #quizz-options{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    
 }
-#quizz-option{
+.quizz-option{
     margin: 1rem;
+    background: #334524;
+    border-radius: 8px;
+    padding: 0rem 1rem 0rem 1rem;
+    color: #F8FAF6;
+    cursor: pointer;
 }
 .form-label{
-    margin-bottom: .5rem;
+    margin: .5rem;
     font-size: 24px;
 }
 .form-checkk{
@@ -54,12 +59,13 @@ body{
     height: 1em;
     margin: .5em;
     vertical-align: middle;
+    
 }
-#navigation{
-    padding:0 10rem 0 10rem ;
-    margin-top: 2rem;
-}
+
 .navigation{
     display: flex;
-    gap: 100%;
+    gap: 50%;
+    justify-content: center;
+    margin-top: 2rem;
 }
+
