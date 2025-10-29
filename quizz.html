@@ -13,14 +13,14 @@
     
 
 </head>
-<body>
+<body onload="nextQuestion(i++)">
     <secion id="home">
         <h1 class="display-1">History-101 Quizz</h1>
         
         <div id="quizz-field">
             <h2 id="question" class="display-5"></h2>
             <form id="quizz-options">
-                <div id="quizz-1">                  
+                <div id="quizz">                  
                     <div class="quizz-option">
                         <input class="form-checkk" type="radio" name="quizz-optin" id="quizz-check-0" value="0">
                         <label class="form-label" id="quizz-option-0"></label>
@@ -41,7 +41,7 @@
             </form>
         </div>
         <div class="navigation">
-            <i id="b1" class="fa-solid fa-square-caret-left fa-2xl" style="color: #80ad5c; visibility:hidden;"></i>            
+            <i id="b1" class="fa-solid fa-square-caret-left fa-2xl" style="color: #80ad5c; cursor: pointer; visibility:hidden;"></i>            
             <i id="b2" class="fa-solid fa-square-caret-right fa-2xl" style="color: #80ad5c; cursor: pointer;"></i>
             <script src="js.js"></script>
         </div>
