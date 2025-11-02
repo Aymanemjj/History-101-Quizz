@@ -96,7 +96,6 @@ const backbt = document.getElementById("b1");
             document.getElementById("b1").style.visibility ="hidden";
         }
 
-    
 
         ["quizz-check-0", "quizz-check-1", "quizz-check-2", "quizz-check-3"].forEach(function(id) {
             document.getElementById(id).checked = false;
@@ -113,6 +112,10 @@ const backbt = document.getElementById("b1");
                 }
             }
         });
+        localStorage.setItem("scoreValue", answers);
         console.log("answers=",answers);
-         document.getElementById("score-value").innerHTML = answers,"/5";
+    }
+    function answerDisplay(){
+        let score =localStorage.getItem("scoreValue");
+        document.getElementById("score-value").innerHTML = `${score}/5`;
     }
